@@ -7,7 +7,7 @@ All Foursquare code lives in a single repository, an architecture generally call
 `Fsq.io` is a subset of that internal monorepo. `Fsq.io` holds many of Foursquare's
 open source projects that had previously lived in their own separate Github repos. Foursquare contributes
 to a build tool specifically designed to work with monorepos called [Pants](https://pantsbuild.github.io/).
-The entire `Fsq.io` repo is is built and tested by Pants.
+The entire `Fsq.io` repo is built and tested by Pants.
 
 Deploying directly from our monorepo has some nice advantages, for consumers of our open source projects as
 well as Foursquare itself. The entire repo is built daily by our CIs and internal contributions are open sourced
